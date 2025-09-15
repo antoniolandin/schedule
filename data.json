@@ -1,256 +1,194 @@
 {
     "INSO1A": [
         {
-            "subject": "Lab. Red. Sist. Op",
-            "teacher": "Miguel A. Fernández",
-            "hour": 0,
+            "subject": "Pensa. Creativo",
+            "teacher": "Rubén de la Prida",
+            "hour": 1,
             "day": 0
         },
         {
             "subject": "Intro. Program. 1",
             "teacher": "Sergio Bermúdez",
-            "hour": 1,
+            "hour": 2,
             "day": 0
         },
         {
             "subject": "Fund. Des. Web",
             "teacher": "Ramona Ruiz",
-            "hour": 0,
+            "hour": 1,
             "day": 1
         },
         {
-            "subject": "Pensa. Creativo",
-            "teacher": "Bernardo Martínez",
-            "hour": 1,
+            "subject": "Log. Mat. Discre",
+            "teacher": "Ana Isabel Sánchez",
+            "hour": 2,
             "day": 1
+        },
+        {
+            "subject": "Lab. Red. Sist. Op",
+            "teacher": "Miguel A. Fernández",
+            "hour": 0,
+            "day": 2
+        },
+        {
+            "subject": "Fund. Des. Web",
+            "teacher": "Ramona Ruiz",
+            "hour": 1,
+            "day": 2
         },
         {
             "subject": "Proyectos 1",
             "teacher": "Luis Miguel Campoy",
-            "hour": 0,
-            "day": 2
-        },
-        {
-            "subject": "Log. Mat. Discre",
-            "teacher": "Ana Isabel Sánchez",
             "hour": 1,
-            "day": 2
+            "day": 3
         },
         {
             "subject": "Lab. Red. Sist. Op",
             "teacher": "Miguel A. Fernández",
-            "hour": 0,
+            "hour": 2,
             "day": 3
-        },
-        {
-            "subject": "Log. Mat. Discre",
-            "teacher": "Ana Isabel Sánchez",
-            "hour": 1,
-            "day": 3
-        },
-        {
-            "subject": "Fund. Des. Web",
-            "teacher": "Ramona Ruiz",
-            "hour": 1,
-            "day": 4
         },
         {
             "subject": "Intro. Program. 1",
             "teacher": "Sergio Bermúdez",
+            "hour": 1,
+            "day": 4
+        },
+        {
+            "subject": "Log. Mat. Discre",
+            "teacher": "Ana Isabel Sánchez",
             "hour": 2,
             "day": 4
         }
     ],
     "INSO1B": [
         {
-            "subject": "Lab. Red. Sist. Op",
-            "teacher": "Héctor Paredes",
-            "hour": 0,
+            "subject": "Log. Mat. Discre",
+            "teacher": "Jorge Tesch",
+            "hour": 1,
             "day": 0
         },
         {
-            "subject": "Fund. Des. Web",
-            "teacher": "Ramona Ruiz",
-            "hour": 1,
+            "subject": "Pensa. Creativo",
+            "teacher": "Rubén de la Prida",
+            "hour": 2,
             "day": 0
         },
         {
             "subject": "Intro. Program. 1",
             "teacher": "Alfonso Castro",
-            "hour": 0,
-            "day": 1
-        },
-        {
-            "subject": "Lab. Red. Sist. Op",
-            "teacher": "Héctor Paredes",
             "hour": 1,
             "day": 1
         },
         {
             "subject": "Fund. Des. Web",
             "teacher": "Ramona Ruiz",
+            "hour": 2,
+            "day": 1
+        },
+        {
+            "subject": "Proyectos 1",
+            "teacher": "Luis Miguel Campoy",
             "hour": 0,
             "day": 2
         },
         {
-            "subject": "Log. Mat. Discre",
-            "teacher": "Jorge Tesch",
+            "subject": "Lab. Red. Sist. Op",
+            "teacher": "Héctor Paredes",
             "hour": 1,
             "day": 2
         },
         {
             "subject": "Intro. Program. 1",
             "teacher": "Alfonso Castro",
-            "hour": 0,
-            "day": 3
-        },
-        {
-            "subject": "Pensa. Creativo",
-            "teacher": "Bárbara Sainza",
             "hour": 1,
             "day": 3
-        },
-        {
-            "subject": "Proyectos 1",
-            "teacher": "Luis Miguel Campoy",
-            "hour": 0,
-            "day": 4
-        },
-        {
-            "subject": "Log. Mat. Discre",
-            "teacher": "Jorge Tesch",
-            "hour": 1,
-            "day": 4
-        }
-    ],
-    "INSO1C": [
-        {
-            "subject": "Proyectos 1",
-            "teacher": "Luis Miguel Campoy",
-            "hour": 1,
-            "day": 0
         },
         {
             "subject": "Fund. Des. Web",
             "teacher": "Ramona Ruiz",
             "hour": 2,
-            "day": 0
-        },
-        {
-            "subject": "Lab. Red. Sist. Op",
-            "teacher": "Elena García",
-            "hour": 1,
-            "day": 1
-        },
-        {
-            "subject": "Intro. Program. 1",
-            "teacher": "Rogrigo Alonso",
-            "hour": 2,
-            "day": 1
-        },
-        {
-            "subject": "Log. Mat. Discre",
-            "teacher": "Jorge Tesch",
-            "hour": 0,
-            "day": 2
-        },
-        {
-            "subject": "Lab. Red. Sist. Op",
-            "teacher": "Elena García",
-            "hour": 1,
-            "day": 2
-        },
-        {
-            "subject": "Fund. Des. Web",
-            "teacher": "Ramona Ruiz",
-            "hour": 1,
             "day": 3
         },
         {
-            "subject": "Intro. Program. 1",
-            "teacher": "Rogrigo Alonso",
-            "hour": 2,
-            "day": 3
-        },
-        {
-            "subject": "Log. Mat. Discre",
-            "teacher": "Jorge Tesch",
-            "hour": 0,
+            "subject": "Lab. Red. Sist. Op",
+            "teacher": "Héctor Paredes",
+            "hour": 1,
             "day": 4
         },
         {
-            "subject": "Pensa. Creativo",
-            "teacher": "Bárbara Sainza",
-            "hour": 1,
+            "subject": "Log. Mat. Discre",
+            "teacher": "Jorge Tesch",
+            "hour": 2,
             "day": 4
         }
     ],
     "INSO2A": [
         {
-            "subject": "Sist. Operativos",
-            "teacher": "Carlos Vallez",
-            "hour": 4,
-            "day": 0
-        },
-        {
-            "subject": "Redes Ordenadores",
-            "teacher": "Constantino Malagón",
-            "hour": 5,
-            "day": 0
-        },
-        {
-            "subject": "Prob. Estadist",
-            "teacher": "Carlos Gordón",
-            "hour": 4,
-            "day": 1
-        },
-        {
-            "subject": "Sist. Operativos",
-            "teacher": "Carlos Vallez",
-            "hour": 5,
-            "day": 1
-        },
-        {
             "subject": "Redes Ordenadores",
             "teacher": "Constantino Malagón",
             "hour": 3,
-            "day": 2
+            "day": 0
         },
         {
             "subject": "Prog. Ori. Objetos",
             "teacher": "Miguel A. Mesas",
             "hour": 4,
-            "day": 2
-        },
-        {
-            "subject": "Prob. Estadist",
-            "teacher": "Carlos Gordón",
-            "hour": 4,
-            "day": 3
-        },
-        {
-            "subject": "Prog. Ori. Objetos",
-            "teacher": "Miguel A. Mesas",
-            "hour": 5,
-            "day": 3
-        },
-        {
-            "subject": "Proyectos 2",
-            "teacher": "Ana Isabel Sánchez",
-            "hour": 3,
-            "day": 4
+            "day": 0
         },
         {
             "subject": "Fund. Comp. Vis",
             "teacher": "Rubén de la Prida",
+            "hour": 3,
+            "day": 1
+        },
+        {
+            "subject": "Prog. Ori. Objetos",
+            "teacher": "Miguel A. Mesas",
+            "hour": 4,
+            "day": 1
+        },
+        {
+            "subject": "Redes Ordenadores",
+            "teacher": "Constantino Malagón",
+            "hour": 4,
+            "day": 2
+        },
+        {
+            "subject": "Prob. Estadist",
+            "teacher": "Carlos Gordón",
+            "hour": 5,
+            "day": 2
+        },
+        {
+            "subject": "Sist. Operativos",
+            "teacher": "Carlos Vallez",
+            "hour": 3,
+            "day": 3
+        },
+        {
+            "subject": "Prob. Estadist",
+            "teacher": "Carlos Gordón",
+            "hour": 4,
+            "day": 3
+        },
+        {
+            "subject": "Proyectos 2",
+            "teacher": "Eduardo Arriols",
+            "hour": 3,
+            "day": 4
+        },
+        {
+            "subject": "Sist. Operativos",
+            "teacher": "Carlos Vallez",
             "hour": 4,
             "day": 4
         }
     ],
     "INSO2B": [
         {
-            "subject": "Sist. Operativos",
-            "teacher": "Carlos Vallez",
+            "subject": "Prob. Estadist",
+            "teacher": "Carlos Mora",
             "hour": 3,
             "day": 0
         },
@@ -259,128 +197,140 @@
             "teacher": "Constantino Malagón",
             "hour": 4,
             "day": 0
-        },
-        {
-            "subject": "Sist. Operativos",
-            "teacher": "Carlos Vallez",
-            "hour": 3,
-            "day": 1
-        },
-        {
-            "subject": "Prob. Estadist",
-            "teacher": "Carlos Mora",
-            "hour": 4,
-            "day": 1
-        },
-        {
-            "subject": "Prob. Estadist",
-            "teacher": "Carlos Mora",
-            "hour": 3,
-            "day": 2
-        },
-        {
-            "subject": "Redes Ordenadores",
-            "teacher": "Constantino Malagón",
-            "hour": 4,
-            "day": 2
-        },
-        {
-            "subject": "Prog. Ori. Objetos",
-            "teacher": "Fco. Javier Fernández",
-            "hour": 3,
-            "day": 3
-        },
-        {
-            "subject": "Prog. Ori. Objetos",
-            "teacher": "Fco. Javier Fernández",
-            "hour": 4,
-            "day": 3
         },
         {
             "subject": "Fund. Comp. Vis",
             "teacher": "Rubén de la Prida",
+            "hour": 5,
+            "day": 0
+        },
+        {
+            "subject": "Prog. Ori. Objetos",
+            "teacher": "Fco. Javier Fernández",
             "hour": 3,
-            "day": 4
+            "day": 1
         },
         {
             "subject": "Proyectos 2",
-            "teacher": "Ana Isabel Sánchez",
+            "teacher": "Eduardo Arriols",
             "hour": 4,
-            "day": 4
+            "day": 1
+        },
+        {
+            "subject": "Sist. Operativos",
+            "teacher": "Carlos Vallez",
+            "hour": 5,
+            "day": 1
+        },
+        {
+            "subject": "Redes Ordenadores",
+            "teacher": "Constantino Malagón",
+            "hour": 3,
+            "day": 2
+        },
+        {
+            "subject": "Prog. Ori. Objetos",
+            "teacher": "Fco. Javier Fernández",
+            "hour": 4,
+            "day": 2
+        },
+        {
+            "subject": "Prob. Estadist",
+            "teacher": "Carlos Mora",
+            "hour": 3,
+            "day": 3
+        },
+        {
+            "subject": "Sist. Operativos",
+            "teacher": "Carlos Vallez",
+            "hour": 4,
+            "day": 3
         }
     ],
     "INSO2C": [
         {
-            "subject": "Redes Ordenadores",
-            "teacher": "Constantino Malagón",
-            "hour": 3,
+            "subject": "Prog. 2D",
+            "teacher": "David Aragonés",
+            "hour": 2,
             "day": 0
         },
         {
             "subject": "Sist. Operativos",
             "teacher": "Sergio Bermúdez",
+            "hour": 3,
+            "day": 0
+        },
+        {
+            "subject": "Redes Ordenadores",
+            "teacher": "Amador Maho",
             "hour": 4,
             "day": 0
         },
         {
-            "subject": "Prob. Estadist",
-            "teacher": "Carlos Mora",
+            "subject": "Prog. Ori. Objetos",
+            "teacher": "Rodrigo Alonso",
             "hour": 3,
             "day": 1
-        },
-        {
-            "subject": "Prog. Ori. Objetos",
-            "teacher": "Rogrigo Alonso",
-            "hour": 4,
-            "day": 1
-        },
-        {
-            "subject": "Prob. Estadist",
-            "teacher": "Carlos Mora",
-            "hour": 4,
-            "day": 2
-        },
-        {
-            "subject": "Redes Ordenadores",
-            "teacher": "Constantino Malagón",
-            "hour": 5,
-            "day": 2
-        },
-        {
-            "subject": "Prog. Ori. Objetos",
-            "teacher": "Rogrigo Alonso",
-            "hour": 4,
-            "day": 3
         },
         {
             "subject": "Fund. Comp. Vis",
             "teacher": "Rubén de la Prida",
-            "hour": 5,
-            "day": 3
+            "hour": 4,
+            "day": 1
+        },
+        {
+            "subject": "Prog. 2D",
+            "teacher": "David Aragonés",
+            "hour": 3,
+            "day": 2
+        },
+        {
+            "subject": "Redes Ordenadores",
+            "teacher": "Amador Maho",
+            "hour": 4,
+            "day": 2
         },
         {
             "subject": "Sist. Operativos",
             "teacher": "Sergio Bermúdez",
+            "hour": 5,
+            "day": 2
+        },
+        {
+            "subject": "Prog. Ori. Objetos",
+            "teacher": "Rodrigo Alonso",
+            "hour": 3,
+            "day": 3
+        },
+        {
+            "subject": "Prob. Estadist",
+            "teacher": "Carlos Mora",
             "hour": 4,
+            "day": 3
+        },
+        {
+            "subject": "Prob. Estadist",
+            "teacher": "Carlos Mora",
+            "hour": 3,
             "day": 4
         },
         {
             "subject": "Proyectos 2",
-            "teacher": "Ana Isabel Sánchez",
-            "hour": 5,
+            "teacher": "Eduardo Arriols",
+            "hour": 4,
             "day": 4
         }
     ],
     "INSO2D": [
         {
             "subject": "Prob. Estadist",
-            "teacher": "Carlos Gordón",
+            "teacher": "Alexis Gómez",
             "hour": 3,
             "day": 1
         },
         {
             "subject": "Prob. Estadist",
-            "teacher": "Carlos Gordón",
+            "teacher": "Alexis Gómez",
             "hour": 3,
             "day": 3
         }

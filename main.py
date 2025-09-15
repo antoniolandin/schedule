@@ -37,7 +37,8 @@ def subject_lecture_blocks(my_subjects, group_lectures):
             subject_lecture_block.append(blocks)
         else:
             raise Exception(
-                f"The subject {subject} doesn't exist or is not written well.")
+                f"The subject {subject} doesn't exist or is not written well."
+            )
 
     return subject_lecture_block
 
@@ -87,11 +88,18 @@ def schedule_to_map(schedule):
 
 
 # filter the schedules by the desired conditions
-def filter_schedule(lecture_map, max_lectures_day=3, max_spaces=1):
+def filter_schedule(
+    lecture_map, max_lectures_day=3, max_spaces=1, avoid_single_lectures=False
+):
 
     spaces = 0
 
     for day in lecture_map:
+
+        num_lectures = day.count(True)
+        if num_lectures == 1 and avoid_single_lectures:
+            return False
+
         num_lectures = sum(day)
         current_lecture = 0
 
@@ -111,24 +119,20 @@ def filter_schedule(lecture_map, max_lectures_day=3, max_spaces=1):
     return True
 
 
-def save_my_schedules(my_subjects,
-                      group_lectures,
-                      MAX_LECTURES_DAY=4,
-                      MAX_WAITING_SPACES=2):
-
-    # max number of lectures per day
-    MAX_LECTURES_DAY = 4
-
-    # max number of waiting spaces in a schedule
-    MAX_WAITING_SPACES = 2
-
+def save_my_schedules(
+    my_subjects,
+    group_lectures,
+    MAX_LECTURES_DAY=4,
+    MAX_WAITING_SPACES=2,
+    AVOID_SINGLE_LECTURES=False,
+):
     # divide the lectures into blocks by subject
-    my_subject_lecture_blocks = subject_lecture_blocks(my_subjects,
-                                                       group_lectures)
+    my_subject_lecture_blocks = subject_lecture_blocks(my_subjects, group_lectures)
 
     # check if all the subjects have been found
     assert len(my_subjects) == len(
-        my_subject_lecture_blocks), "Some subjects were not found."
+        my_subject_lecture_blocks
+    ), "Some subjects were not found."
 
     # generate the schedules
     schedules = generate_schedules(my_subject_lecture_blocks)
@@ -138,31 +142,32 @@ def save_my_schedules(my_subjects,
         # convert the schedule into a map (speed up calculations)
         schedule_map = schedule_to_map(schedule)
 
-        if filter_schedule(schedule_map, MAX_LECTURES_DAY, MAX_WAITING_SPACES):
+        if filter_schedule(
+            schedule_map, MAX_LECTURES_DAY, MAX_WAITING_SPACES, AVOID_SINGLE_LECTURES
+        ):
             # save the schedule in the out/ folder
             save_schedule_img(schedule)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # subjects that I want to study
     my_subjects = [
-        "Fund. Des. Web", "Lab. Red. Sist. Op", "Pensa. Creativo",
-        "Proyectos 1", "Fund. Comp. Vis", "Prob. Estadist",
-        "Redes Ordenadores", "Proyectos 2"
+        "Log. Mat. Discre",
+        "Pensa. Creativo",
+        "Sist. Operativos",
+        "Redes Ordenadores",
+        "Prob. Estadist",
+        "Proyectos 2",
     ]
 
     # read the lectures of the groups
     group_lectures = read("data.json")
 
+    # get_schedule_img(group_lectures["INSO2D"]).show()
+
     # show all the schedules
     # for group in group_lectures:
     #     get_schedule_img(group_lectures[group]).show()
 
-    my_schedule = []
-    my_schedule.extend(group_lectures["INSO1B"])
-    my_schedule.extend(group_lectures["INSO2B"])
-    my_schedule = [lecture for lecture in my_schedule if lecture.subject in my_subjects]
-    save_schedule_img(my_schedule)
-
     # save the schedules
-    # save_my_schedules(my_subjects, group_lectures)
+    save_my_schedules(my_subjects, group_lectures)
